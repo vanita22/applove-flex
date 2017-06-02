@@ -158,9 +158,9 @@ header{
 
 
 #uno.flex-container{
-  	display: flex;
-  	flex-flow: row wrap;
-  	justify-content: space-around;
+  	display: flex;                    /*****************************************/
+  	flex-flow: row wrap;			  /*con estos flex se alinean las imagenes*/
+  	justify-content: space-around;    /****************************************/
   	width: 100%;
   	height: auto;
   	margin-top: 63px;
@@ -176,5 +176,5 @@ footer{
 }
 
 .pie.flex-container{
-	justify-content: center;
+	justify-content: center;  /*se centra el contenido de la caja*/
 }
