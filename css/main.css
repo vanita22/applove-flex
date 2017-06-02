@@ -1,66 +1,67 @@
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-  background-color: #fff;
-  font-family: 'Roboto';
+ 	margin: 0 auto;
+ 	font-size: 16px;
+ 	line-height: 1.71429;
+ 	background-color: #fff;
+ 	font-family: 'Roboto';
   /* Enlaza la tipografia Open Sans */
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
 }
 
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
 }
 
 img {
-  vertical-align: middle;
+ 	vertical-align: middle;
 }
 
 a {
-  color: #373B47;
-  text-decoration: none;
+ 	color: #373B47;
+ 	text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+ 	color: #E95853;
 }
 
 .link{
-  font-weight: 700;
-  padding: 21px;
-  display: inline-block;
+ 	font-weight: 700;
+ 	padding: 21px;
+ 	display: inline-block;
 }
 
 .logo{
-  float: right;
+ 	float: right;
 }
 
 /*Contendedor flexbox*/
+
 .flex-container{
 	display: flex;
 }
 
 header{
-  position: absolute;/*cambié de fixed a absolute porque, provocaba que no se viera el contenido */
-  background: white;
-  width: 100%;
-  top: 0;
+  	position: absolute;/*cambié de fixed a absolute porque, provocaba que no se viera el contenido */
+  	background: white;
+  	width: 100%;
+  	top: 0;
 }
 
 .menu{
-  background-color: white; 
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100%;
+  	background-color: white; 
+  	position: fixed; 
+  	top: 0;
+  	left: 0;
+  	width: 100%;
 }
 
 .menu.flex-container{
@@ -78,42 +79,42 @@ header{
 }
 
 #home{
-  background-image: url(../assets/images/bg-home.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;  
-  margin-top: 70px;
+  	background-image: url(../assets/images/bg-home.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	height: 600px;  
+  	margin-top: 70px;
 
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
 
-  color: whitesmoke;
+  	color: whitesmoke;
 }
 
 .text-home{
-  font-size: 2.4em;
+  	font-size: 2.4em;
 }
 
 .btn-home{
-  background: #2Ecc71;
-  color: #fff;
-  padding: 11px 20px;
-  border-radius: 1px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-top: 63px;
-  display: inline-block;
-  font-size: 14px;
+  	background: #2Ecc71;
+  	color: #fff;
+  	padding: 11px 20px;
+  	border-radius: 1px;
+  	font-weight: 500;
+  	text-transform: uppercase;
+  	margin-top: 63px;
+  	display: inline-block;
+  	font-size: 14px;
 }
 
 #services{
-  background-color: #F17C72;
-  text-align: center;
-  color: #fff;
-  padding: 70px;
+  	background-color: #F17C72;
+  	text-align: center;
+  	color: #fff;
+  	padding: 70px;
 }
 
 #services.flex-container{
@@ -122,28 +123,20 @@ header{
 }
 
 .box-services{
-  font-size: 1.2em;
-  font-weight: bold;
+  	font-size: 1.2em;
+  	font-weight: bold;
 }
 
 .text-services{
-  font-size: 35px;
-  letter-spacing: 2px;
-}
-
-footer{
-  text-align: center;
-  height: 70px;
-  background-color: #373B47;
-  color: white;
-  padding-top: 7px;
+  	font-size: 35px;
+  	letter-spacing: 2px;
 }
 
 /*cambio hecho por vanessa p*/
 
 #work{
-  text-align: center;  
-  padding: 20px 7px;
+  	text-align: center;  
+  	padding: 20px 7px;
 }
 
 #work.flex-container{
@@ -153,24 +146,35 @@ footer{
 
 
 .home2{
-  background-image: url(../assets/images/hero.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  width: 100%;
-  height: 200vh; 
-  margin-top: 30px;
+  	background-image: url(../assets/images/hero.png);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	display: flex;
+  	width: 100%;
+  	height: 200vh; 
+  	margin-top: 30px;
 }
 
 
 #uno.flex-container{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 100%;
-  height: auto;
-  margin-top: 63px;
-  padding: 70px;
-  
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: space-around;
+  	width: 100%;
+  	height: auto;
+  	margin-top: 63px;
+  	padding: 70px;
+}
+
+footer{
+  	text-align: center;
+  	height: 70px;
+  	background-color: #373B47;
+  	color: white;
+  	padding-top: 7px;
+}
+
+.pie.flex-container{
+	justify-content: center;
 }
